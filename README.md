@@ -1,7 +1,7 @@
 # Brew Mac Data Engineer Setup
 This git repo presents a shell script that will install frequently used free development tools for a data engineer.
 
-By Following through the shell script, your Mac will have the basic tools to start a data engineer development environment
+By copying the mac_setup.sh shell script, and executing it, your Mac will have the basic tools to start a data engineer development environment
 
 ## License
 Copyright (c) 2024, Yong Jun Kim

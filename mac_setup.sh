@@ -15,6 +15,9 @@ brew install gh
 brew install --cask microsoft-onenote
 brew install --cask docker
 brew install --cask visual-studio-code
+brew install helm
+
+# Optional Productivity Tools
 brew install --cask zoom
 brew install --cask spotify
 
