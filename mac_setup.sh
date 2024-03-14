@@ -6,18 +6,23 @@ if ! command -v brew &> /dev/null; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-# Install required applications
+# Install basic applications
 brew install --cask bitwarden
 brew install --cask google-chrome
 brew install --cask rectangle
+
+# Install programming related apps
 brew install --cask github
 brew install gh
 brew install --cask microsoft-onenote
-brew install --cask docker
 brew install --cask visual-studio-code
-brew install helm
 
-# Optional Productivity Tools
+# Install docker & k8s related apps
+brew install --cask docker
+brew install helm
+brew install kind
+
+# Install optional productivity tools
 brew install --cask zoom
 brew install --cask spotify
 
